@@ -16,7 +16,7 @@ class Libro {
                 <h3><span class="de">de</span> ${this.autor}</h3>
 
                 <div class="informacion">
-                    <a href="img/677881.jpg" title="Presioná para ver la imagen en tamaño grande" target="_blank">
+                    <a href="img/${this.foto}" title="Presioná para ver la imagen en tamaño grande" target="_blank">
                         <img src="img/${this.foto}" alt="Portada de ${this.nombre}">
                     </a>
                     <p>
