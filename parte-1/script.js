@@ -36,4 +36,4 @@ class Libro {
 }
 
 let unLibro = new Libro("Ángeles y Demonios", "Dan Brown");
-let otroLibro = new Libro("Fuego y Sangre", "GEORGE R. R. MARTIN");
+let otroLibro = new Libro("Fuego y Sangre", "George R. R. Martin");
