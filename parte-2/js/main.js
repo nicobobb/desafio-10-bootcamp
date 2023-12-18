@@ -106,7 +106,8 @@ let htmlNuevosLibros =
     libro1.getHtmlArticle() +
     libro2.getHtmlArticle() +
     libro3.getHtmlArticle() +
-    libro4.getHtmlArticle();
+    libro4.getHtmlArticle() +
+    libro5.getHtmlArticle();
 
 elemLibrosContainer.innerHTML += htmlNuevosLibros;
 
@@ -127,6 +128,6 @@ class Libreria {
     }
 }
 
-new Libreria([libro1, libro2, libro3, libro4]).cargarElementoConLibros(
+new Libreria([libro1, libro2, libro3, libro4, libro5]).cargarElementoConLibros(
     "libros"
 );
